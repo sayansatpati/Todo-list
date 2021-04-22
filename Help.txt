@@ -1,0 +1,15 @@
+Basic Usage 
+
+Create a task : todo.py create "task details"
+Create multiple tasks : todo.py create "task1" "task2"
+Read all tasks : todo.py list-all
+Read a specific task : todo.py list-all --substring "task description"
+Read all tasks which are not complete : Pending
+Read all tasks which are complete : Pending
+Read a task which is not complete : todo.py list-all --no-complete "task description"
+Read a task which is complete : todo.py list-all --complete "task description"
+Update a task description : todo.py toggle "Task description" "Updated description"
+Update a task state : todo.py update "task description"
+Delete a task : todo.py delete "task description"
+Delete multiple tasks : todo.py delete "task1" "task2"
+Delete all tasks : todo.py delete
