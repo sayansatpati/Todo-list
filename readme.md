@@ -2,6 +2,7 @@ Command Line Application - Todo List
 
 A commandline application using Python 3.6+ that allows you to build and maintain a TODO list.
 
+```shell
 	$ Create a task : todo.py create "task details"
 	$ Create multiple tasks : todo.py create "task1" "task2"
 	$ Read all tasks : todo.py list-all
